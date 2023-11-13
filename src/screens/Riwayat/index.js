@@ -22,13 +22,13 @@ const Main = () => {
   return (
     <View style={home.container}>
       <ScrollView horizontal style={{ paddingHorizontal: 10 }} showsHorizontalScrollIndicator={false}>
-        <View style={{ backgroundColor: 'lightgreen', padding: 10, borderRadius: 20, marginHorizontal: 5 }}>
+        <View style={{ backgroundColor: 'lightgrey', padding: 10, borderRadius: 20, marginHorizontal: 5 }}>
           <Text style={{ color: 'black' }}>Gocar</Text>
         </View>
-        <View style={{ backgroundColor: 'lightgreen', padding: 10, borderRadius: 20, marginHorizontal: 5 }}>
+        <View style={{ backgroundColor: 'lightgrey', padding: 10, borderRadius: 20, marginHorizontal: 5 }}>
           <Text style={{ color: 'black' }}>GoRide</Text>
         </View>
-        <View style={{ backgroundColor: 'lightgreen', padding: 10, borderRadius: 20, marginHorizontal: 5 }}>
+        <View style={{ backgroundColor: 'lightgrey', padding: 10, borderRadius: 20, marginHorizontal: 5 }}>
           <Text style={{ color: 'black' }}>GoFood</Text>
         </View>
       </ScrollView>
@@ -40,7 +40,7 @@ const Main = () => {
             style={home.icon}
           />
           <View style={{ flexDirection: 'row', flex: 1, justifyContent: 'space-between', alignItems: 'center' }}>
-            <Text style={{ color: 'black', fontSize: 16, fontWeight: 'bold', paddingLeft: 10, }}>Malang Town Square</Text>
+            <Text style={{ color: 'black', fontSize: 16, fontWeight: 'bold', paddingLeft: 10, }}>Wagir City</Text>
             <Text style={{ color: 'black', fontSize: 14 }}>Rp42.000</Text>
           </View>
         </View>
@@ -53,7 +53,7 @@ const Main = () => {
             style={home.icon}
           />
           <View style={{ flexDirection: 'row', flex: 1, justifyContent: 'space-between', alignItems: 'center' }}>
-            <Text style={{ color: 'black', fontSize: 16, fontWeight: 'bold', paddingLeft: 10, }}>Ayam Nelongso, Singosari</Text>
+            <Text style={{ color: 'black', fontSize: 16, fontWeight: 'bold', paddingLeft: 10, }}>Kampus 2 ITN Malang</Text>
             <Text style={{ color: 'black', fontSize: 14 }}>Rp23.000</Text>
           </View>
         </View>

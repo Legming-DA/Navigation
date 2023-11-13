@@ -13,13 +13,15 @@ export default function ProfileScreen() {
         <View style={{ marginTop: 10 }}>
           <View style={{ ...styles.imageContainer, paddingHorizontal: 20, marginBottom: 20 }}>
             <Image
-              source={profile}
-              style={styles.profileImage}
+              source={{
+                uri: 'https://img.freepik.com/premium-vector/portrait-beautiful-young-woman_478440-398.jpg?w=740',
+              }}
+              style={{ ...styles.profileImage }}
             />
             <View style={{ marginLeft: 10 }}>
-              <Text style={styles.profileName}>Legming Dwi Anggraini</Text>
+              <Text style={styles.profileName}>Marie Pangestu</Text>
               <View style={{ alignItems: 'center', flexDirection: 'row', }}>
-                <Text style={{ ...styles.profileInfo, color: 'rgb(255, 0, 0)', fontWeight: 'bold', }}>Business Woman</Text>
+                <Text style={{ ...styles.profileInfo, color: 'rgb(100, 100, 100)', fontWeight: 'bold', }}>Data Analyst</Text>
               </View>
             </View>
           </View>
@@ -32,22 +34,22 @@ export default function ProfileScreen() {
             <View style={{ flexDirection: 'row', paddingHorizontal: 24, marginBottom: 25, }}>
               <UserEdit color={'green'} variant="Linear" size={24} />
               <View style={{ flexDirection: 'column' }}>
-                <Text style={styles.profileSetting}>Edit Profile</Text>
-                <Text style={styles.profileSettingDesc}>Lengkapi data personal anda</Text>
+                <Text style={styles.profileSetting}>Edit Profil</Text>
+                <Text style={styles.profileSettingDesc}>Lengkapi data diri anda</Text>
               </View>
             </View>
             <View style={{ flexDirection: 'row', paddingHorizontal: 24, marginBottom: 25, }}>
               <Setting2 color={'green'} variant="Linear" size={24} />
               <View style={{ flexDirection: 'column' }}>
-                <Text style={styles.profileSetting}>Setting</Text>
-                <Text style={styles.profileSettingDesc}>Edit keamanan dan pengaturan lainnya</Text>
+                <Text style={styles.profileSetting}>Security</Text>
+                <Text style={styles.profileSettingDesc}>Pengaturan keamanan</Text>
               </View>
             </View>
             <View style={{ flexDirection: 'row', paddingHorizontal: 24, marginBottom: 25, }}>
               <LogoutCurve color={'green'} variant="Linear" size={24} />
               <View style={{ flexDirection: 'column' }}>
                 <Text style={styles.profileSetting}>Sign Out</Text>
-                <Text style={styles.profileSettingDesc}>Keluar dari akun anda</Text>
+                <Text style={styles.profileSettingDesc}>Keluar dari akun</Text>
               </View>
             </View>
           </View>

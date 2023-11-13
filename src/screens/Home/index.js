@@ -13,7 +13,7 @@ export default function App() {
           <SearchNormal1 color={colors.black()} variant="Linear" size={24} style={styles.searchIcon} />
           <TextInput
             style={styles.searchbar}
-            placeholder="Find ur like it!"
+            placeholder="Search here!"
             onChangeText={this.updateSearch}
           />
           <ProfileCircle color='green' variant='Bold' size={40} style={styles.profileIcon} />
@@ -199,7 +199,6 @@ const home = StyleSheet.create({
     top: 16,
   },
 });
-
 
 const styles = StyleSheet.create({
   container: {
